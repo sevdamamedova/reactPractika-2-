@@ -41,10 +41,12 @@ function App() {
           <div>
             <Input title="Ad" value={nameVal} onChange={(e) => setNameVal(e.target.value)} />
             <Error mesaj={errorVal} />
-            <div></div>
+          </div>
+          <div>
             <Input title="Soyad" value={surnameVal} onChange={(e) => setSurnameVal(e.target.value)} />
             <Error mesaj={errorVal} />
           </div>
+
           <div>
             <Input title="Telefon" value={phonVal} onChange={(e) => setPhonVal(e.target.value)} />
             <Error mesaj={errorVal} />
